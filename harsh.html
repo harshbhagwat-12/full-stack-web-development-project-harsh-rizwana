@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Website</title>
+    <link rel="stylesheet" href="harsh.css">
+</head>
+<body>
+    <header>
+        <h1>A R S H I</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="products">
+        <h2>Products</h2>
+        <div class="product">
+            <img src="https://i.ebayimg.com/images/g/SJMAAOSw2kpmRxkG/s-l400.png" alt="Product 1">
+            <h3>Nike Air Force 1 '07 AN20</h3>
+            <p>Price: ₹3999</p>
+            <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.etsystatic.com/10893629/r/il/585aaa/3475576126/il_340x270.3475576126_b6oy.jpg" alt="Product 2">
+            <h3>Custom Nike Air Force 1 Spurs</h3>
+            <p>Price: ₹6999</p>
+            <button onclick="addToCart('Product 2', 10)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.ebayimg.com/images/g/FKUAAOSwq0diGNiz/s-l400.jpg" alt="Product 3">
+            <h3>Nike Air Force 1 '07 Shoes </h3>
+            <p>Price: ₹5999</p>
+            <button onclick="addToCart('Product 3', 10)">Add to Cart</button>
+        </div>
+    </main>
+
+    <script src="/harsh.js"></script>
+</body>
+</html>
